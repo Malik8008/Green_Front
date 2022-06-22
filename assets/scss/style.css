@@ -1,0 +1,309 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#headertop {
+  background-color: #d4dad4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 45px;
+}
+
+#headertop .cont .email i {
+  color: #5cb874;
+}
+
+#headertop .cont .email a {
+  text-decoration: none;
+  color: black;
+}
+
+#headertop .cont .email a:hover {
+  color: #5cb874;
+}
+
+#headertop .cont .phone {
+  margin-left: 10px;
+}
+
+#headertop .cont .phone i {
+  color: #5cb874;
+}
+
+#headertop .cont .phone a {
+  text-decoration: none;
+  color: black;
+}
+
+#headertop .social .socialmedia ul li {
+  margin-left: 15px;
+  list-style: none;
+}
+
+#headertop .social .socialmedia ul li a i {
+  color: black;
+}
+
+#headertop .social .socialmedia ul li a i:hover {
+  color: #5cb874;
+}
+
+#headerbottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#headerbottom .logo a {
+  text-decoration: none;
+  color: #5cb874;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#headerbottom .menu {
+  margin-top: 12px;
+}
+
+#headerbottom .menu .navlink ul li {
+  margin-left: 18px;
+  list-style: none;
+}
+
+#headerbottom .menu .navlink ul li a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+#headerbottom .menu .navlink ul li a:hover {
+  color: #5cb874;
+}
+
+#slider {
+  padding-top: 10px;
+  padding-top: 10px;
+}
+
+#slider .slide .carousel-inner .carousel-item img {
+  height: 450px;
+}
+
+#slider .slide .carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: 5%;
+}
+
+#slider .slide .carousel-inner .carousel-item .carousel-caption h2 {
+  font-size: 50px;
+}
+
+#slider .slide .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 20px;
+}
+
+#card {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#card .cards .icon i {
+  font-size: 35px;
+  color: #5cb874;
+}
+
+#card .cards .subtitle {
+  width: 350px;
+}
+
+#card .cards:hover h3 {
+  color: #5cb874;
+}
+
+#about {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#about .aboutus .title h2 {
+  font-weight: bold;
+}
+
+#about .valuptateminfo .title {
+  text-align: start;
+}
+
+#about .valuptateminfo .subtitle {
+  text-align: start;
+}
+
+#about .valuptateminfo .nav {
+  text-align: start;
+}
+
+#about .valuptateminfo .nav p {
+  margin-top: 13px;
+}
+
+#about .valuptateminfo .bottomsubtitle {
+  text-align: start;
+}
+
+#services {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#services .service {
+  text-align: center;
+}
+
+#services .service h2 {
+  font-weight: bold;
+}
+
+#services .cards {
+  box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.88);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#services .cards .subtitle {
+  text-align: center;
+}
+
+#services .cards .icon i {
+  font-size: 30px;
+}
+
+#contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact .contactus {
+  text-align: center;
+}
+
+#contact .contactus .title h2 {
+  font-weight: bold;
+}
+
+#contact .con .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #abcfab;
+}
+
+#contact .con .icon:hover {
+  background-color: #559255;
+}
+
+#contact .con .icon:hover i {
+  color: white;
+}
+
+#contact .con .icon i {
+  font-size: 20px;
+  margin-left: 17px;
+  margin-top: 15px;
+  color: #5cb874;
+}
+
+#contact .maps {
+  border-top: 3px solid #5cb874;
+  box-shadow: -1px 4px 12px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 4px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+#contact .form-outline input {
+  padding: 12px;
+}
+
+#contact .form-outline .email {
+  margin-left: 40px;
+}
+
+#contact .subject input {
+  padding: 12px;
+}
+
+#contact .send {
+  text-align: center;
+}
+
+#contact .form {
+  border-top: 3px solid #5cb874;
+  box-shadow: -1px 4px 12px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 4px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  padding: 30px;
+  background-color: black;
+}
+
+footer .footer {
+  text-align: center;
+}
+
+footer .footer .title h2 {
+  color: white;
+  font-weight: bold;
+}
+
+footer .footer .subtitle p {
+  color: white;
+}
+
+footer .footer .social ul li {
+  width: 40px;
+  height: 40px;
+  background-color: #5cb874;
+  border-radius: 50px;
+  margin: 0 10px;
+  list-style: none;
+}
+
+footer .footer .social ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+footer .footer .social ul li a i {
+  margin-top: 10px;
+}
+
+footer .footer .copyright p {
+  color: white;
+}
+
+footer .footer .copyright p a {
+  color: #5cb874;
+}
+/*# sourceMappingURL=style.css.map */
